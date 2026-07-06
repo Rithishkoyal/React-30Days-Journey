@@ -1,0 +1,64 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 230, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.resume
+{
+   display: flex;
+   justify-content: center; 
+    background-color:  rgb(230, 230, 226);
+   
+}
+
+.resume button{
+    background-color: #2563eb;
+    color: white;
+    border-radius: 20px;
+    padding:  10px 20px ;
+border: none;
+cursor: pointer;
+}
+.container{
+    width : 80%;
+    margin: auto;
+}
+
+header{
+    background: rgb(171, 101, 20);
+    color: rgb(250, 248, 249);
+    text-align: center;
+    padding: 40px;
+}
+section{
+    background: white;
+    margin-top: 20px;
+    padding:20px;
+    border-radius: 10px;
+}
+h2{
+    color:  #2563eb;
+margin-bottom: 10px;
+}
+ul{
+    padding-left: 20px;
+}
+li{
+    margin-bottom: 5px;
+}
+
+footer{
+    margin: 25px 0;
+    text-align: center;
+    background-color: rgb(177, 201, 141);
+    padding: 30px;
+    color: white;
+    
+}
